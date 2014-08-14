@@ -1,9 +1,8 @@
 {
     "name": "netzmacht/contao-er2-build-tasks",
     "description": "Build task for build contao er2 packages with phing",
+    "type": "library",
     "require": {
-    },
-    "require-dev": {
         "phing/phing": "~2.0",
         "alebear/versioncontrol_git": "dev-master",
         "symfony/process": "~2.2",
