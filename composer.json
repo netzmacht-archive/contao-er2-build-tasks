@@ -1,0 +1,30 @@
+{
+    "name": "netzmacht/contao-er2-build-tasks",
+    "description": "Build task for build contao er2 packages with phing",
+    "require": {
+    },
+    "require-dev": {
+        "phing/phing": "~2.0",
+        "alebear/versioncontrol_git": "dev-master",
+        "symfony/process": "~2.2",
+        "symfony/filesystem": "~2.2",
+        "composer/composer": "~1.0.0@dev"
+    },
+    "license": "LGPL-3.0+",
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Molineus",
+            "email": "mail@netzmacht.de"
+        },
+        {
+            "name": "Tristan Lins",
+            "email": "tristan.lins@bit3.de"
+        }
+    ],
+    "minimum-stability": "dev"
+}
